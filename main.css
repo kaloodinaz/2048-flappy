@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
-html,body{margin:0;padding:0;background:#faf8ef;color:#776e65;font-family:"Roboto","Helvetica Neue",Arial,sans-serif;font-size:18px}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+html,body{margin:0;padding:0;background:#faf8ef;color:#776e65;font-family:"Poppins","Helvetica Neue",Arial,sans-serif;font-size:18px}
 body{margin:20px 0}
 .heading:after{content:"";display:block;clear:both}
 h1.title{max-width:1px;white-space:nowrap;font-size:35px;font-weight:700;margin:25px 0 0;display:block;float:left}
@@ -16,7 +16,7 @@ h1.title{max-width:1px;white-space:nowrap;font-size:35px;font-weight:700;margin:
 100%{top:-50px;opacity:0}
 }
 .scores-container{float:right;text-align:right}
-.score-container,.best-container{position:relative;display:inline-block;background:#bbada0;padding:15px 25px;font-size:25px;height:25px;line-height:47px;font-weight:700;border-radius:3px;color:#fff;margin-top:8px;text-align:center}
+.score-container,.best-container{position:relative;display:inline-block;background:#6d5946;padding:15px 25px;font-size:25px;height:25px;line-height:47px;font-weight:700;border-radius:3px;color:#fff;margin-top:8px;text-align:center}
 .score-container:after,.best-container:after{position:absolute;width:100%;top:10px;left:0;text-transform:uppercase;font-size:13px;line-height:13px;text-align:center;color:#eee4da}
 .score-container .score-addition,.best-container .score-addition{position:absolute;right:30px;color:red;font-size:25px;line-height:25px;font-weight:700;color:#776e65e6;z-index:100;-webkit-animation:move-up 600ms ease-in;-moz-animation:move-up 600ms ease-in;animation:move-up 600ms ease-in;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
 .score-container:after{content:"Score"}
@@ -38,7 +38,7 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 0%{opacity:0}
 100%{opacity:1}
 }
-.game-container{margin-top:20px;position:relative;padding:15px;cursor:default;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;background:#bbada0;border-radius:6px;width:500px;height:500px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.game-container{margin-top:20px;position:relative;padding:15px;cursor:default;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;background:#473728;border-radius:6px;width:500px;height:500px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .game-container .game-message{display:none;position:absolute;top:0;right:0;bottom:0;left:0;background:#eee4da80;z-index:100;text-align:center;-webkit-animation:fade-in 800ms ease 1200ms;-moz-animation:fade-in 800ms ease 1200ms;animation:fade-in 800ms ease 1200ms;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
 .game-container .game-message p{font-size:60px;font-weight:700;height:60px;line-height:60px;margin-top:222px}
 .game-container .game-message .lower{display:block;margin-top:59px}
@@ -144,7 +144,7 @@ h1.title{max-width:1px;white-space:nowrap;font-size:27px;margin-top:15px}
 .container{width:280px;margin:0 auto}
 .score-container,.best-container{margin-top:0;padding:15px 10px;min-width:40px}
 .heading{margin-bottom:10px}
-.game-container{margin-top:40px;position:relative;padding:10px;cursor:default;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;background:#bbada0;border-radius:6px;width:280px;height:280px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.game-container{margin-top:40px;position:relative;padding:10px;cursor:default;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;background:#473728;border-radius:6px;width:280px;height:280px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .game-container .game-message{display:none;position:absolute;top:0;right:0;bottom:0;left:0;background:#eee4da80;z-index:100;text-align:center;-webkit-animation:fade-in 800ms ease 1200ms;-moz-animation:fade-in 800ms ease 1200ms;animation:fade-in 800ms ease 1200ms;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both}
 .game-container .game-message p{font-size:60px;font-weight:700;height:60px;line-height:60px;margin-top:222px}
 .game-container .game-message .lower{display:block;margin-top:59px}
