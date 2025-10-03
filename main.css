@@ -103,7 +103,7 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 }
 .tile.tile-super .tile-inner{color:#121212;background-color:#3c3a32;background-image: url('https://kaloodinaz.github.io/2048-flappy/fbt.png');background-size:cover;background-position:center;opacity:0.6;filter:alpha(opacity=60);line-height:190px;text-align:center;font-size:28px}
 @media screen and (max-width: 520px) {
-.tile.tile-super .tile-inner{font-size:10px}
+.tile.tile-super .tile-inner{font-size:13px;line-height:100px}
 }
 @-webkit-keyframes appear {
 0%{opacity:0;-webkit-transform:scale(0);-moz-transform:scale(0);transform:scale(0)}
