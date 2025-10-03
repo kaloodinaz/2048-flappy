@@ -74,7 +74,7 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 .tile.tile-position-4-3{-webkit-transform:translate(363px,242px);-moz-transform:translate(363px,242px);transform:translate(363px,242px)}
 .tile.tile-position-4-4{-webkit-transform:translate(363px,363px);-moz-transform:translate(363px,363px);transform:translate(363px,363px)}
 .tile{position:absolute;-webkit-transition:100ms ease-in-out;-moz-transition:100ms ease-in-out;transition:100ms ease-in-out;-webkit-transition-property:-webkit-transform;-moz-transition-property:-moz-transform;transition-property:transform}
-.tile .tile-inner{border-radius:3px;background:#eee4da;text-align:center;font-weight:700;z-index:10;font-size:55px}
+.tile .tile-inner{border-radius:3px;background-color:green;background-image: url('https://kaloodinaz.github.io/2048-flappy/br.png');background-size: cover; background-position: center;text-align:center;font-weight:700;z-index:10;font-size:55px}
 .tile.tile-2 .tile-inner{background:#eee4da;box-shadow:0 0 30px 10px #f3d77400 inset 0 0 0 1px #fff0}
 .tile.tile-4 .tile-inner{background:#ede0c8;box-shadow:0 0 30px 10px #f3d77400 inset 0 0 0 1px #fff0}
 .tile.tile-8 .tile-inner{color:#f9f6f2;background:#f2b179}
@@ -101,7 +101,7 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 @media screen and (max-width: 520px) {
 .tile.tile-2048 .tile-inner{font-size:15px}
 }
-.tile.tile-super .tile-inner{color:#f9f6f2;background:#3c3a32;font-size:30px}
+.tile.tile-super .tile-inner{color:#121212;background-color:#3c3a32;background-image: url('https://especially43.github.io/2048-flappy/fbt.png');background-size:cover;background-position:center;opacity:0.6;filter:alpha(opacity=60);line-height:190px;text-align:center;font-size:28px}
 @media screen and (max-width: 520px) {
 .tile.tile-super .tile-inner{font-size:10px}
 }
