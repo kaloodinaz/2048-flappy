@@ -101,7 +101,7 @@ hr{border:none;border-bottom:1px solid #d8d4d0;margin-top:20px;margin-bottom:30p
 @media screen and (max-width: 520px) {
 .tile.tile-2048 .tile-inner{font-size:15px}
 }
-.tile.tile-super .tile-inner{color:#121212;background-color:#3c3a32;background-image: url('https://especially43.github.io/2048-flappy/fbt.png');background-size:cover;background-position:center;opacity:0.6;filter:alpha(opacity=60);line-height:190px;text-align:center;font-size:28px}
+.tile.tile-super .tile-inner{color:#121212;background-color:#3c3a32;background-image: url('https://kaloodinaz.github.io/2048-flappy/fbt.png');background-size:cover;background-position:center;opacity:0.6;filter:alpha(opacity=60);line-height:190px;text-align:center;font-size:28px}
 @media screen and (max-width: 520px) {
 .tile.tile-super .tile-inner{font-size:10px}
 }
